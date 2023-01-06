@@ -19,9 +19,9 @@ public class OpenGoogleWithHTMLUnitDriver {
 		System.out.println("Title of the page: "+driver.getTitle());
 		driver.quit();
 		
-		if(driver.getTitle().contains("Google"))
+		if(driver.getTitle().contains("Googe"))
 		{
-			System.out.println("Test case executed successfully");
+			System.out.println("Test case executed successfully.");
 		}
 		
 		long endTime=System.currentTimeMillis();
